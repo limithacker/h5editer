@@ -1,0 +1,98 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="global.css" />
+<link rel="stylesheet" href="editer.css" />
+<title>Lab</title>
+</head>
+
+<body>
+<div class="contact" id="aaa">
+
+
+<!-- editer -->
+<div class="editer">
+
+<!-- toolbox -->
+<div class="toolbox">
+<a href="javascript:;" id="und">U</a>
+<a href="javascript:;" id="bold">B</a>
+<a href="javascript:;" id="italic">I</a>
+<a href="javascript:;" id="strike">N</a>
+<a href="javascript:;" id="fsize">Xx</a>
+<a href="javascript:;" id="fcolor">A</a>
+<a href="javascript:;" id="ywz">颜文字</a>
+<a href="javascript:;" id="bqq">表情</a>
+<a href="javascript:;" id="iimg">图片</a>
+<a href="javascript:;" id="alink">URL</a>
+<a href="javascript:;" id="video">视频</a>
+</div>
+
+<!-- tcbox -->
+<ul id="fsbox">
+<li sel="3"><font size="3">3</font></li>
+<li sel="4"><font size="4">4</font></li>
+<li sel="5"><font size="5">5</font></li>
+<li sel="6"><font size="6">6</font></li>
+<li sel="7"><font size="7">7</font></li>
+</ul>
+
+<ul id="fcbox">
+<li style="background-color:#000000;" sel="#000000"></li>
+<li style="background-color:#FF0000;" sel="#FF0000"></li>
+<li style="background-color:#FFC000;" sel="#FFC000"></li>
+<li style="background-color:#7030A0;" sel="#7030A0"></li>
+<li style="background-color:#FFFFFF;" sel="#FFFFFF"></li>
+<li style="background-color:#00B050;" sel="#00B050"></li>
+</ul>
+
+<ul id="ywzbox">
+</ul>
+
+<div id="bqbox">
+</div>
+
+<div id="iimgbox">
+<div class="boxtitle">请输入图片地址:<a href="http://tietuku.com/upload" target="_blank" class="ml30">上传图片</a></div>
+<input type="text" id="iimgtxt" />
+<a href="javascript:;" id="iimgbtn">确定</a>
+<span class="boxtips" id="imgtips"></span>
+
+<a href="javascript:;" class="boxclose">×</a>
+</div>
+
+<div id="iabox">
+<div class="boxtitle">请输入URL:</div>
+<input type="text" id="iatxt" />
+<a href="javascript:;" id="iabtn">确定</a>
+<span class="boxtips" id="urltips"></span>
+
+<a href="javascript:;" class="boxclose">×</a>
+</div>
+
+<div id="videobox">
+<div class="boxtitle">请输入视频播放页URL(仅AB站):</div>
+<input type="text" id="videotxt" />
+<a href="javascript:;" id="videobtn">确定</a>
+<span class="boxtips" id="urltips"></span>
+
+<a href="javascript:;" class="boxclose">×</a>
+</div>
+
+<div id="mainbox" contenteditable="true"></div>
+
+<div class="cb"></div>
+</div><!--editer end-->
+
+
+</div>
+
+</body>
+
+</html>
+<script type="text/javascript" src="jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="something.js"></script>
+<script type="text/javascript" src="editer.js"></script>
+<script type="text/javascript" src="filter.js"></script>
